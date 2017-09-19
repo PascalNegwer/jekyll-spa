@@ -1,3 +1,6 @@
-title: Your awesome title
+title: Jekyll-SPA
 email: pascal@negwer.de
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
