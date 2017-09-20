@@ -1,1 +1,9 @@
-<h3 class="text-center">Header</h3>
+<header>
+    <nav class="main-navigation">
+        <ul>
+        {% for section in site.sections %}
+            <li>{{ section.title }}</li>
+        {% endfor %}
+        </ul>
+    </nav>
+</header>

@@ -2,7 +2,9 @@ title: Jekyll-SPA
 email: pascal@negwer.de
 markdown: kramdown
 sass:
-  sass_dir: assets/_sass
+  sass_dir: _src/sass
+  style: compressed
+coffee:
   style: compressed
 plugins:
   - bootstrap-sass
