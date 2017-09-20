@@ -4,6 +4,8 @@ markdown: kramdown
 sass:
   sass_dir: assets/_sass
   style: compressed
+plugins:
+  - bootstrap-sass
 collections:
   - sections
   - skills
